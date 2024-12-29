@@ -1,6 +1,6 @@
 ---
 title: Cache Optimization For Render Loops
-tags: [Object Oriented Programming, Game Engine Design]
+tags: [C++, Optimization]
 style: outline
 color: success
 description: Creating an extensible game engine using the Entity-Component System (ECS) design pattern.
