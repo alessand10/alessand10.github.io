@@ -1,9 +1,8 @@
 ### Site Settings ###
 title               : Alessandro Genovese
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Welcome to my portfolio! 
+                      My passion is turning data into pixels.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : alessand10/alessand10.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
