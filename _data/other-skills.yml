@@ -1,15 +1,19 @@
-- name: Object Oriented Programming
+- name: 3D Rendering Techniques
   percentage: 95
   color: success
 
-- name: Optimization
+- name: Object Oriented Programming
   percentage: 95
   color: 
 
-- name: Design Patterns
+- name: Optimization
   percentage: 90
   color: warning
 
-- name: Multithreaded Programming
+- name: Design Patterns
   percentage: 90
   color: secondary
+
+- name: Multithreaded Programming
+  percentage: 85
+  color: danger

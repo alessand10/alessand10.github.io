@@ -1,9 +1,10 @@
 ---
-title: Efficient Global Illumination Using Voxel Cone Tracing
-tags: [Object Oriented Programming, Game Engine Design]
+title: Efficient Global Illumination Using Voxel Cone Tracing (Coming Soon)
+tags: [Rendering Techniques]
 style: outline
 color: secondary
-description: Creating an extensible game engine using the Entity-Component System (ECS) design pattern.
+description: Exploring Voxel Cone Tracing (VCT) as outlined in the Nvidia whitepaper, and its use in the G3D engine.
+external_url: "."
 ---
 
 ## The Problem

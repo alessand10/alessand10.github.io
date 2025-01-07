@@ -6,7 +6,8 @@ weight: 3
 ---
 
 I have a strong passion for 3D graphics, game engine design, and 
-developing real-time rendering techniques.
+developing real-time rendering techniques. As a developer, I enjoy finding innovative and efficient solutions to problems,
+keeping up to date with the latest techniques, and collaborating with others to produce exceptional results.
 
 
 <div class="row">

@@ -1,9 +1,10 @@
 ---
-title: Spatial Partitioning Using Bounding Volume Hierarchies
-tags: [Artificial Intelligence, Generative Adversarial Networks]
+title: Cache Optimization in Render Loops (Coming Soon)
+tags: [C++, Optimization]
 style: outline
-color: warning
-description: Placeholder
+color: success
+description: Creating an extensible game engine using the Entity-Component System (ECS) design pattern.
+external_url: "."
 ---
 
 ## The Problem

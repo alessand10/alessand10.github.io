@@ -6,13 +6,16 @@ color: primary
 description: Producing type IDs during compile time for render-loop-optimal type verification.
 ---
 
-### Motivation
-While working on the frame graph for my 3D game engine, I came across a problem that I could solve by assigning type IDs to each class.
+### Problem Background
+While working on the [frame graph]({{site.baseurl}}/blog/the-g3d-frame-graph) for my 3D game engine, I came across an interesting design task that challenged me to verify
+the type of an object as quickly as possible. 
 
 My type ID system had the following requirements:
 - Each class must be assigned a unique ID.
 - It must be possible to retrieve the ID using the class name.
 - This system must work as quickly as possible, IDs will be retrieved (via class name) and compared against other IDs many times per frame.
+
+<br/>
 
 ### Initial Design - Runtime IDs
 My initial approach involved using a C++ macro that would be placed in the body of any class which needed to be part of the ID system:
@@ -46,6 +49,7 @@ This method has the following <span style="color: red;">disadvantages</span>:
 - Registering many classes individually may be inconvenient.
 - Forgetting to register classes will likely lead to undefined behaviour and runtime exceptions. 
 
+<br/>
 
 ### Improved Design - Compile Time IDs
 
@@ -74,13 +78,16 @@ This method offers the following <span style="color: green;">improvements</span>
 - IDs will not change across two invocations of the same program. 
 - The type ID of any class can be retrieved without requiring the header.
 
+<br/>
 
-This 
+### Hash collisions
+
+Although rare, it is important to keep in mind that hash collisions are a possibility when using this approach. Having two classes unintentionally result in the same ID can create nightmare bugs that are very difficult to find. To avoid issues with hash collisions, a good approach might be to check for uniqueness during initialization. This [write-up]("https://softwareengineering.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed") provides interesting insights into collisions when using FNV-1a.
 
 
-
-
-
+<br/>
+<br/>
+<br/>
 
 
 

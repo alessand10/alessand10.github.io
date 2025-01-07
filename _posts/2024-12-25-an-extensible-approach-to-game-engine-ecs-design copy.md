@@ -1,9 +1,10 @@
 ---
-title: Designing Extendable Game Engines Using ECS
+title: Designing Extendable Game Engines Using ECS (Coming Soon)
 tags: [Object Oriented Programming, Game Engine Design]
 style: outline
 color: danger
 description: Creating an extensible game engine using the Entity-Component System (ECS) design pattern.
+external_url: "."
 ---
 
 ## The Problem
