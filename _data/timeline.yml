@@ -1,17 +1,26 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Genova3D, Engine Programmer, Owner
+  from: Oct, 2024
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Genova3D is a small 3D graphics company that I founded
+               in late 2024 as a means to learn more about the industry as well as 
+               to build leadership & collaboration skills. I am responsible for the 
+               development of the company's 3D engine, as well as the set of core
+               software libraries used by the engine.
+
+
+- title: Digital Hub, Shopify App Developer
+  from: May, 2023
+  to: present
+  description: At Digital Hub, I am responsible for the planning and development of
+               Shopify apps that help merchants grow their businesses. I work closely
+               with the team to develop new features, fix bugs, and improve the overall
+               performance of the apps.
+
+
+- title: Taktil Instruments, Embedded Software Developer
+  from: June, 2020
+  to: May, 2023
+  description: At Taktil Instruments, I was responsible for the development of
+               embedded drivers written in C/C++ for the company's line of audio 
+               modules. I learned about how to work with low-level memory management,
+               real-time processing, and unit testing frameworks.

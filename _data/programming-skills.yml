@@ -1,11 +1,19 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
+- name: C/C++
+  percentage: 95
+  color: success
 
-- name: Go
-  percentage: 80
-  color:
+- name: Vulkan API
+  percentage: 90
+  color: primary
+
+- name: DirectX12 API
+  percentage: 85
+  color: warning
 
 - name: Python
-  percentage: 70
+  percentage: 85
   color: secondary
+
+- name: C#
+  percentage: 85
+  color: danger

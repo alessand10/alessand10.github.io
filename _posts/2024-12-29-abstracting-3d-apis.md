@@ -2,7 +2,7 @@
 title: Abstracting 3D APIs
 tags: [Vulkan, DirectX12, OpenGL]
 style: outline
-color: primary
+color: light
 description: Designing a library to reducing the complexity of writing cross-platform 3D software.
 ---
 

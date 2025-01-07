@@ -1,5 +1,5 @@
 ---
-title: Cache Optimization For Render Loops
+title: Cache Optimization in Render Loops
 tags: [C++, Optimization]
 style: outline
 color: success
