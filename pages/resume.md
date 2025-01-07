@@ -10,6 +10,10 @@ developing real-time rendering techniques. As a developer, I enjoy finding innov
 keeping up to date with the latest techniques, and collaborating with others to produce exceptional results.
 
 
+A copy of my formal PDF resume can be opened using the following
+<a href="{{site.baseurl}}/assets/doc/resume-alessandro-genovese.pdf" target="_blank"> link </a>.
+
+
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
