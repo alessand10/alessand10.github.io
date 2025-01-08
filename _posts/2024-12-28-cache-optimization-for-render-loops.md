@@ -3,7 +3,7 @@ title: Cache Optimization in Render Loops (Coming Soon)
 tags: [C++, Optimization]
 style: outline
 color: success
-description: Creating an extensible game engine using the Entity-Component System (ECS) design pattern.
+description: Understanding the importance of cache optimization for data fetches in tight render loops.
 external_url: "."
 ---
 
