@@ -85,7 +85,7 @@ The G3D frame graph design allows us utilize the benefits of modularization and 
 
 As a future expansion to this system, we might consider breaking the graph into static sections and dynamic sections to ensure that command lists are only re-recorded when necessary.
 
-My progress on this system can be followed by visiting the [G3D Engine]("https://github.com/alessand10/g3d-core") project.
+My progress on this system can be followed by visiting the [G3D Engine](https://github.com/alessand10/g3d-core) project.
 
 
 
