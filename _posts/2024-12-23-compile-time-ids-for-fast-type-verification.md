@@ -11,21 +11,22 @@ While working on the [frame graph]({{site.baseurl}}/blog/the-g3d-frame-graph) fo
 the type of an object as quickly as possible. 
 
 My type ID system had the following requirements:
-- Each class must be assigned a unique ID.
-- It must be possible to retrieve the ID using the class name.
-- This system must work as quickly as possible, IDs will be retrieved (via class name) and compared against other IDs many times per frame.
+- Each class must be assigned a unique integer ID.
+- It must be possible to retrieve the ID using the class name or header.
+- This system must work quickly, IDs will be retrieved and compared against other IDs many times per frame.
 
 <br/>
 
 ### Initial Design - Runtime IDs
-My initial approach involved using a C++ macro that would be placed in the body of any class which needed to be part of the ID system:
+In my initial approach, I defined a C++ macro and placed it in the body of all classes that required an ID. The macro
+provided a simple way of defining and retrieving a static id member variable for each class.
 
 ``` c++
     #define CLASS_BODY \
         private: \
         inline static int m_id = -1; // The default id \
         public: \
-        static int* getIDRef();
+        static int* getIDRef() {return &m_id};
 
     ...
 
@@ -38,14 +39,14 @@ My initial approach involved using a C++ macro that would be placed in the body 
     }
 ```
 
-Classes can then be registered with the engine, which assigns incrementing IDs:
+Classes could then be registered with the engine, which assigned incrementing IDs:
 ``` c++
     engine.register(A::getIDRef()) // Assigns ID 0 to class A
     engine.register(B::getIDRef()) // Assigns ID 1 to class B
 ```
 
 This method has the following <span style="color: red;">disadvantages</span>:
-- Special care must be taken if each class must have the same ID for each invocation of the program. This is especially important if new classes are to be introduced to this system in the future.
+- It may be challenging to ensure that each class has the same ID for each invocation of the program. This is especially true if new classes are expected to be added over time.
 - Registering many classes individually may be inconvenient.
 - Forgetting to register classes will likely lead to undefined behaviour and runtime exceptions. 
 
