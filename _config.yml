@@ -2,7 +2,7 @@
 title               : Alessandro Genovese
 description         : >-
                       Welcome to my portfolio! 
-                      My passion is turning 3D data into pixels.
+                      My passion is developing embedded systems and computer vision solutions.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : alessand10/alessand10.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
