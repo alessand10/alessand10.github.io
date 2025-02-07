@@ -1,5 +1,5 @@
 ---
-title: Hardware Encryption with STM32H7
+title: Hardware Encryption with STM32H7 (Coming Soon)
 tags: [Embedded Systems, STM32, Cryptography, Security]
 style: outline
 color: success
