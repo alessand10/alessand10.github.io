@@ -1,19 +1,19 @@
-- name: 3D Rendering Techniques
+- name: Computer Vision
   percentage: 95
   color: success
 
-- name: Object Oriented Programming
+- name: RTOS & Embedded Systems
   percentage: 95
   color: 
 
-- name: Optimization
+- name: Hardware Interfacing
   percentage: 90
   color: warning
 
-- name: Design Patterns
+- name: Digital Signal Processing
   percentage: 90
   color: secondary
 
-- name: Multithreaded Programming
+- name: System Architecture
   percentage: 85
   color: danger

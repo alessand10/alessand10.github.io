@@ -1,16 +1,33 @@
 ---
-title: Abstracting 3D APIs (Coming Soon)
-tags: [Vulkan, DirectX12, OpenGL]
+title: Hardware Encryption with STM32H7
+tags: [Embedded Systems, STM32, Cryptography, Security]
 style: outline
-color: light
-description: Designing a library to reducing the complexity of writing cross-platform 3D software.
+color: success
+description: Leveraging the STM32H7's built-in cryptographic accelerator for secure embedded applications.
 external_url: "."
 ---
 
-### Summary
+## Introduction
 
-This article will discuss my work in abstracting DirectX12, Vulkan and OpenGL using a library called the G3D API Layer. It will
-review some of the challenges involved in creating the library.
+The STM32H7 series includes powerful cryptographic hardware accelerators that can significantly improve security while maintaining high performance. This article explores how to effectively utilize these features in embedded applications.
+
+## Hardware Capabilities
+
+- AES encryption/decryption (128/256-bit)
+- Hardware random number generation (HRNG)
+- SHA-256 hashing
+- Public key cryptography acceleration (PKA)
+- True random number generator (TRNG)
+
+## Implementation Overview
+
+This guide will demonstrate:
+- Initializing the CRYP peripheral
+- Implementing AES-256 encryption
+- Using hardware random number generation
+- Best practices for key management
+
+[Detailed implementation guide coming soon]
 
 
 

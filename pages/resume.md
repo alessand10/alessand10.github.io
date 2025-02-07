@@ -5,13 +5,10 @@ permalink: /resume/
 weight: 3
 ---
 
-I have a strong passion for 3D graphics, game engine design, and 
-developing real-time rendering techniques. As a developer, I enjoy finding innovative and efficient solutions to problems,
-keeping up to date with the latest techniques, and collaborating with others to produce exceptional results.
-
-
-A copy of my formal PDF resume can be opened using the following
-<a href="{{site.baseurl}}/assets/doc/resume-alessandro-genovese.pdf" target="_blank"> link </a>.
+I have a strong passion for embedded systems, firmware development, and 
+real-time computing. As a developer, I enjoy working close to the hardware, optimizing for resource-constrained environments,
+and developing efficient solutions for complex embedded challenges. I'm particularly interested in IoT devices, computer vision, microcontroller programming,
+and real-time operating systems.
 
 
 <div class="row">

@@ -2,18 +2,18 @@
   percentage: 95
   color: success
 
-- name: Vulkan API
+- name: FreeRTOS
   percentage: 90
   color: primary
 
-- name: DirectX12 API
+- name: Python
   percentage: 85
   color: warning
 
-- name: Python
+- name: Embedded Linux
   percentage: 85
   color: secondary
 
-- name: C#
-  percentage: 85
+- name: Verilog
+  percentage: 80
   color: danger
