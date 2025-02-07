@@ -17,3 +17,7 @@
 - name: System Architecture
   percentage: 85
   color: danger
+
+- name: Debugging & Testing
+  percentage: 90
+  color: info
